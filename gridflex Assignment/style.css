@@ -1,0 +1,116 @@
+.item-a {
+    grid-area: a;
+    background-color: rgb(247, 99, 14);
+   
+  }
+  .item-b {
+    grid-area: b;
+    background-color: rgb(241, 238, 26);
+  }
+  .item-c {
+    grid-area: c;
+    background-color: rgb(30, 148, 55);
+  }
+  .item-d {
+    grid-area: d;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 110px 120px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-areas: 
+    "e e"
+    "f f";
+  }
+ 
+  .item-e {
+    grid-area: e;
+    background-color:rgb(107, 99, 218);
+  }
+ 
+  .item-f {
+    grid-area: f;
+    background-color: rgb(107, 99, 218);
+  }
+ 
+
+  .container {
+    justify-content: center;
+    background-color: rgb(4, 3, 22);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 250px 250px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-areas: 
+      "a a a b"
+      "c c d d";
+  }
+
+
+
+
+.flexboxContainer{
+
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.boxA{
+
+    width: 200px;
+    background-color: #E28525;
+    padding: 50px;
+   
+}
+
+.boxB{
+
+    width: 200px;
+    background-color: #016972;
+    padding: 50px;
+}
+
+.boxC{
+
+    width: 200px;
+    background-color: #00413F;
+    padding: 50px;
+    
+}
+
+h3{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 30px;
+    color:azure;
+    letter-spacing: -3px;
+    
+}
+
+p{
+    font-family: 'Big Shoulders Display';
+    font-size:15px ;
+    color:rgb(234, 240, 240);
+    opacity: 0.7;
+    line-height: 1.5;
+
+    
+}
+
+
+button {
+
+padding: 15px;
+color: #E28525;
+border-radius: 30px;
+border: 0;
+width: 150px;
+background-color: rgb(252, 248, 248);
+
+
+}

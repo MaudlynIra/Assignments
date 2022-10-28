@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+   
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   }
+
+   * {
+    box-sizing: border-box;
+  }
+
+   footer{
+    margin: 0;
+    background-color: rgb(143, 134, 134);
+   
+   
+   }
+
+   .name{
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(25, 26, 21);
+    
+    
+   }
+
+   h4{
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(184, 218, 61);
+    
+   }
+
+   #brief {
+
+    font-family: 'Rasa';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: rgb(184, 218, 61);
+   }
+
+   .header{
+       display: flex;
+       background-color: rgb(20, 20, 20);
+       box-shadow: rgb(182, 169, 169);
+       padding: 30px;
+        left: 0px;
+        top: 0px;
+        position: sticky;
+
+       
+   }
+   
+   .logo{
+    flex: 30%;
+    padding-left: 10px;
+    color: rgb(233, 229, 17);
+    font-family: 'Rasa';
+font-style: normal;
+font-size: 20px;
+line-height: 29px;
+
+}
+   .nav {
+   flex: 70%;
+   padding-right: 10px;
+   
+   }
+   
+   .nav a{
+       display :flex;
+      color: rgb(248, 240, 248);
+      text-decoration: none;
+      font-style: normal;
+font-size: 20px;
+line-height: 29px;
+       
+       }
+
+  .hero {
+        display: flex;
+        background-color: rgb(83, 26, 26);
+        height:fit-content;
+
+}
+
+.left{
+    flex: 50%;
+    padding: 70px;
+    text-align: left;
+    background-color: rgb(48, 44, 44);
+    
+    
+
+}
+   .right{
+   flex: 50%;
+   padding: 30px;
+   background-color: rgb(43, 26, 83);
+   }
+
+   .rowdata1 {
+    display:flex;
+    background-color: rgb(247, 241, 241);
+    height:fit-content;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.rowdata2 {
+    display:flex;
+    background-color: rgb(29, 25, 24);
+    height:fit-content;
+    padding: 30px;
+ 
+
+}
+
+.margin{
+margin:20px ;
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 25%;
+background-color: rgb(36, 31, 41);
+align-items: center;
+justify-content: center;
+
+}
+
+  
+  .margin:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .margin {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .margin {
+      width: 100%;
+    }
+  }
+  .image {
+   height: 50px;
+   background-color: #42423e;
+   width: 100px;
+  
+   
+  }
+  
